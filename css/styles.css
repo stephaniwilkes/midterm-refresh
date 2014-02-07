@@ -8,18 +8,40 @@ p {
 
 /* Base Nav Styling */
 
-li {
+nav li {
 
-	background: red;
 	float: left;
 	list-style: none;
 	margin: 0px 20px;
 }
 
-nav a {
+/* Link States */
 
-	background: green;
+nav a:link, nav a:visited {
+
 	padding: 20px 20px 20px 60px;
+	text-decoration: none;
+}
+
+
+/* Hover */
+
+#first a:hover {
+
+	background: url("../img/home.png") no-repeat left center;
+	transition: background-position 1s;  
+}
+
+#second a:hover {
+
+	background: url("../img/resume.png") no-repeat left center;
+	transition: background-position 1s;  
+}
+
+#third a:hover {
+
+	background: url("../img/contact.png") no-repeat left center;
+	transition: background-position 1s;  
 }
 
 /* Helper Classes */
