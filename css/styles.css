@@ -26,7 +26,7 @@ nav a:link, nav a:visited {
 
 /* Hover */
 
-#first a:hover {
+#first a:hover, #second a:hover, #third a:hover {
 
 	background: url("../img/home.png") no-repeat left center;
 	transition: background-position 1s;  
@@ -35,13 +35,18 @@ nav a:link, nav a:visited {
 #second a:hover {
 
 	background: url("../img/resume.png") no-repeat left center;
-	transition: background-position 1s;  
 }
 
 #third a:hover {
 
 	background: url("../img/contact.png") no-repeat left center;
-	transition: background-position 1s;  
+}
+
+/* Advanced Selection */
+
+aside p + img {
+
+	border: 4px solid black;
 }
 
 /* Helper Classes */
